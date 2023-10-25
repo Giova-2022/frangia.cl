@@ -11,10 +11,12 @@
                     <h1>PRECIOS</h1>
                     <h2>EXCLUSIVOS</h2>
                     <h3>Reseller</h3>
-                    <input type="button" value="Ver Catalogo">
+                    <input type="button" value="Ver Catalogo" data-href="catalogos/catalogo2024.pdf">
                 </div>
+                
                 <div class="container__vector">
-                    <img src="images/productos/magnetico.png" alt="">
+                    <img class="img-cover" src="images/productos/magnetico.png" alt="">
                 </div>
             </div>
+
         </div>

@@ -26,7 +26,7 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#" class="select">HOME</a></li>
-                        <li><a href="#">CATALOGO</a></li>
+                        <li><input id="btn__catalogo" type="button" value="Ver Catalogo" data-href="catalogos/catalogo2024.pdf"></li>
                         <li><a href="#">COTIZACION</a></li>
                         <li><a href="#">PRODUCTOS</a></li>
                     </ul>

@@ -53,5 +53,6 @@
 </div>
 
     <script src="js/script.js"></script>
+    <script src="js/DescargarCatalogo.js"></script>
 </body>
 </html>
