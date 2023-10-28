@@ -18,17 +18,19 @@
                 <div class="datos">
                     <div class="starrr"></div>
                     <small><a href="#">Calendario</a></small>
-                    <h3><a href="#">CALENDARIO MAGNETICO FULL COLOR</a></h3>
-                    <small>SKU: 32383ee090pi</small>
+                    <h3><a href="#">CALENDARIO MAGNETICO 6.5x9 <br> FULL COLOR</a></h3>
+                    <small>Cantidad: 100 und.</small> <br>
+                    <small>Impresion: Laser</small> <br>
+                    <small>iman: 3.3mm</small>
                 </div>
                 <div class="precios">
                     <div class="internet">
+                        <small class="reseller">RESELLER</small>
+                        <span>$20.000</span>
+                    </div>
+                    <div class="normal">
                         <small>NORMAL</small>
                         <span>$29.990</span>
-                    </div>
-                    <div>
-                        <small>RESELLER</small>
-                        <span>$24.990</span>
                     </div>
                 </div>
                 <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Realizar Pedido</a>
