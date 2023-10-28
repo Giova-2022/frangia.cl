@@ -212,7 +212,7 @@
 	height: 30px;
 	border: 1px solid #e2e2e2;
 	border-radius: 6px;
-	background-image: url(../imagenes/prev-arrow.png);
+	background-image: url(../images/prev-arrow.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #ffffff;
@@ -229,7 +229,7 @@
 	height: 30px;
 	border: 1px solid #e2e2e2;
 	border-radius: 6px;
-	background: url(../imagenes/next-arrow.png);
+	background: url(../images/next-arrow.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #fff;
