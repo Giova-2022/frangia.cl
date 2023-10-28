@@ -54,5 +54,49 @@
 
     <script src="js/script.js"></script>
     <script src="js/DescargarCatalogo.js"></script>
+
+
+
+
+    
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<!-- Carousel -->
+<script src="js/slickslider/slick.min.js"></script>
+<!-- Starrr -->
+<script src="js/starrr.js"></script>
+<script type="text/javascript">
+    //Starrr
+    $('.starrr').starrr({})
+
+    $('.carousel').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        draggable: false,
+        slidesToShow: 4,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: false
+            }
+        }, {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }, {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }, ]
+    });
+</script>
 </body>
 </html>

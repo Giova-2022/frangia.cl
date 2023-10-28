@@ -3,8 +3,7 @@
         <div class="cover">
 
             <div class="bg_color"></div>
-            <div class="wave w1"></div>
-            <div class="wave w2"></div>
+        
 
             <div class="container__cover">
                 <div class="container__info">

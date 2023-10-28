@@ -13,6 +13,14 @@
 
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    
+    <link rel="StyleSheet" href="js/slickslider/slick.css">
+    <link rel="StyleSheet" href="css/normalize.css">
+    <link rel="StyleSheet" href="css/EstiloCard.Productos.css">
+
+
+
+
 
 </head>
 <body>
