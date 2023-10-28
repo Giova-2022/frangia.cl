@@ -13,7 +13,7 @@
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
                     <img src="images/productos/magnetico.png">
-                    <img src="imagenes/gopro02.jpg" class="img-hover">
+                    <img src="images/productos/BarrioComercialPuntaArenas-2.jpg" class="img-hover">
                 </div>
                 <div class="datos">
                     <div class="starrr"></div>
