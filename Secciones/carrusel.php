@@ -72,7 +72,7 @@
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="images/productos/tarjetas_.png">
+                    <img src="images/productos/tarjetadepresentacion.png">
                       <!-- Imagen de producto para hover 
                     <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>

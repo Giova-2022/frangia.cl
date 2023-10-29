@@ -14,7 +14,7 @@
                 </div>
                 
                 <div class="container__vector">
-                    <img class="img-cover" src="images/productos/magnetico.png" alt="">
+                    <img class="img-cover" src="images/productos/magnetico2.png" alt="Calendario Magnetico">
                 </div>
             </div>
 
