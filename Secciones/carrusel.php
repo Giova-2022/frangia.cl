@@ -9,11 +9,14 @@
             <span class="txt-titulo">Mostrando 4 de 6 elementos</span>
         </div>
         <div class="slider carousel">
+
+            <!-- Magnetico + Mini Taco 100 und -->
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
                     <img src="images/productos/magnetico.png">
-                    <img src="images/productos/magnetico.png" class="img-hover">
+                      <!-- Imagen de producto para hover 
+                    <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>
                 <div class="datos">
                     <div class="starrr"></div>
@@ -33,127 +36,67 @@
                         <span>$29.990</span>
                     </div>
                 </div>
-                <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Realizar Pedido</a>
+                <a href="https://www.whatsapp.com/product/5961004663934476/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
             </div>
+            
+            <!-- Flyer 10x14 Tiro -->
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="imagenes/parlante01.jpg">
-                    <img src="imagenes/parlante02.jpg" class="img-hover">
+                    <img src="images/productos/Flyers-baratos.png">
+                      <!-- Imagen de producto para hover 
+                    <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>
                 <div class="datos">
                     <div class="starrr"></div>
-                    <small><a href="#">Sony</a></small>
-                    <h3><a href="#">PARLANTE SONY GTK-PG10</a></h3>
-                    <small>SKU: 32383ee090pi</small>
+                    <small><a href="#">Flyers</a></small>
+                    <h3><a href="#">Flyers impresion un lado <br>FULL COLOR</a></h3>
+                    <small>Cantidad: 1000 und.</small> <br>
+                    <small>Impresion: Offset</small> <br>
+                    <small>Papel: Couche 170g.</small>
                 </div>
                 <div class="precios">
                     <div class="internet">
-                        <small>Internet</small>
-                        <span>$189.000</span>
+                        <small class="reseller">RESELLER</small>
+                        <span>$20.250</span>
                     </div>
-                    <div>
-                        <small>Normal</small>
-                        <span>$250.000</span>
+                    <div class="normal">
+                        <small>NORMAL</small>
+                        <span>$27.000</span>
                     </div>
                 </div>
-                <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Agregar al carrito</a>
+                <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
             </div>
+
+            <!-- Tarjetas Tiro -->
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="imagenes/audifonos01.jpg">
-                    <img src="imagenes/audifonos02.jpg" class="img-hover">
+                    <img src="images/productos/tarjetas_.png">
+                      <!-- Imagen de producto para hover 
+                    <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>
                 <div class="datos">
                     <div class="starrr"></div>
-                    <small><a href="#">Tbl</a></small>
-                    <h3><a href="#">AUDIFONOS JBL T110 NEGRO</a></h3>
-                    <small>SKU: 32383ee090pi</small>
+                    <small><a href="#">Tarjetas</a></small>
+                    <h3><a href="#">Tarjeta de presentación<br>FULL COLOR</a></h3>
+                    <small>Cantidad: 1000 und.</small> <br>
+                    <small>Impresion: Offset</small> <br>
+                    <small>Papel: Couche 300g.</small>
                 </div>
                 <div class="precios">
                     <div class="internet">
-                        <small>Internet</small>
-                        <span>$189.000</span>
+                        <small class="reseller">RESELLER</small>
+                        <span>$18.000</span>
                     </div>
-                    <div>
-                        <small>Normal</small>
-                        <span>$250.000</span>
+                    <div class="normal">
+                        <small>NORMAL</small>
+                        <span>$29.990</span>
                     </div>
                 </div>
-                <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Agregar al carrito</a>
+                <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
             </div>
-            <div class="producto item">
-                <div class="contenedor-imagen">
-                    <a href="#" class="link"></a>
-                    <img src="imagenes/googlehome01.jpg">
-                    <img src="imagenes/googlehome02.jpg" class="img-hover">
-                </div>
-                <div class="datos">
-                    <div class="starrr"></div>
-                    <small><a href="#">Google</a></small>
-                    <h3><a href="#">GOOGLE HOME MINI CARBON</a></h3>
-                    <small>SKU: 32383ee090pi</small>
-                </div>
-                <div class="precios">
-                    <div class="internet">
-                        <small>Internet</small>
-                        <span>$189.000</span>
-                    </div>
-                    <div>
-                        <small>Normal</small>
-                        <span>$250.000</span>
-                    </div>
-                </div>
-                <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Agregar al carrito</a>
-            </div>
-            <div class="producto item">
-                <div class="contenedor-imagen">
-                    <a href="#" class="link"></a>
-                    <img src="imagenes/gopro01.jpg">
-                    <img src="imagenes/gopro02.jpg" class="img-hover">
-                </div>
-                <div class="datos">
-                    <div class="starrr"></div>
-                    <small><a href="#">Gopro</a></small>
-                    <h3><a href="#">Gopro hero silver 7</a></h3>
-                    <small>SKU: 32383ee090pi</small>
-                </div>
-                <div class="precios">
-                    <div class="internet">
-                        <small>Internet</small>
-                        <span>$189.000</span>
-                    </div>
-                    <div>
-                        <small>Normal</small>
-                        <span>$250.000</span>
-                    </div>
-                </div>
-                <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Agregar al carrito</a>
-            </div>
-            <div class="producto item">
-                <div class="contenedor-imagen">
-                    <a href="#" class="link"></a>
-                    <img src="imagenes/gopro01.jpg">
-                    <img src="imagenes/gopro02.jpg" class="img-hover">
-                </div>
-                <div class="datos">
-                    <div class="starrr"></div>
-                    <small><a href="#">Gopro</a></small>
-                    <h3><a href="#">Gopro hero silver 7</a></h3>
-                    <small>SKU: 32383ee090pi</small>
-                </div>
-                <div class="precios">
-                    <div class="internet">
-                        <small>Internet</small>
-                        <span>$189.000</span>
-                    </div>
-                    <div>
-                        <small>Normal</small>
-                        <span>$250.000</span>
-                    </div>
-                </div>
-                <a href="#" class="btn-carrito"><i class="fas fa-shopping-basket"></i> Agregar al carrito</a>
-            </div>
+
+
         </div>
     </div>
