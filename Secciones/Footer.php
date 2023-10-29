@@ -21,26 +21,26 @@
 
                 <div class="box__footer">
                     <h2>Soluciones</h2>
-                    <a href="#">Diseño Grafico</a>
-                    <a href="#">Productos</a>
-                    <a href="#">Cotizaciones</a>
-                    <a href="#">Agente</a>
+                    <a href="">Diseño Grafico</a>
+                    <a href="https://wa.me/c/56936384308">Productos</a>
+                    <a href="ventas@frangia.cl">Cotizaciones</a>
+                    <a href="https://wa.me/56936384308">Agente</a>
                 </div>
-
+<!--
                 <div class="box__footer">
                     <h2>Compañia</h2>
-                    <a href="#">Acercda de</a>
+                    <a href="">Acerca de</a>
                     <a href="#">Trabajos</a>
                     <a href="#">Procesos</a>
                     <a href="#">Servicios</a>              
-                </div>
+                </div> -->
 
                 <div class="box__footer">
                     <h2>Redes Sociales</h2>
-                    <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
-                    <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                    <a href="https://m.facebook.com/Frangia.cl"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href="https://www.instagram.com/impresiones_frangia"><i class="fab fa-instagram-square"></i> Instagram</a>
                     <br>
-                    <a href="#"><i class="fab fa-whatsapp-square"></i> Whatsapp</a>                    
+                    <a href="https://wa.me/56936384308"><i class="fab fa-whatsapp-square"></i> Whatsapp</a>                    
                 </div>
             </div>
 

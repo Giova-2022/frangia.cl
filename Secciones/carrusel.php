@@ -4,7 +4,7 @@
         <div class="titulo">
             <div class="shape right-skew">
                 
-                <h2>CALENDARIOS</h2>
+                <h2> <marquee behavior="" direction="">🚀 CALENDARIOS ⭐ FLYERS ⭐ TARJETAS ⭐ LETREROS 🚀</marquee></h2>
             </div>
             <span class="txt-titulo">Mostrando 4 de 6 elementos</span>
         </div>

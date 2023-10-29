@@ -12,6 +12,9 @@ button.addEventListener("click", () => {
     a.href = window.URL.createObjectURL(blob);
     a.download = "catalogo2024.pdf";
     a.click();
+
+    // Envía una alerta
+    alert("Gracias!... El catálogo se descargó con éxito.");
   };
   xhr.send();
 });
