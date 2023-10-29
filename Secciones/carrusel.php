@@ -13,12 +13,12 @@
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
                     <img src="images/productos/magnetico.png">
-                    <img src="images/productos/BarrioComercialPuntaArenas-2.jpg" class="img-hover">
+                    <img src="images/productos/magnetico.png" class="img-hover">
                 </div>
                 <div class="datos">
                     <div class="starrr"></div>
                     <small><a href="#">Calendario</a></small>
-                    <h3><a href="#">CALENDARIO MAGNETICO 6.5x9 <br> FULL COLOR</a></h3>
+                    <h3><a href="#">CALENDARIO MAGNETICO <br> 6.5x9  FULL COLOR</a></h3>
                     <small>Cantidad: 100 und.</small> <br>
                     <small>Impresion: Laser</small> <br>
                     <small>iman: 3.3mm</small>

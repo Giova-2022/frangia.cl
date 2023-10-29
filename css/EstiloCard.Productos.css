@@ -93,14 +93,20 @@
 
 .producto .contenedor-imagen .img-hover {
 	opacity: 0;
+	width: 150%;
 	position: absolute;
 	left: 0;
 	top: 0;
 	transition: all ease-in-out 0.2s;
+	
 }
 
 .producto:hover .img-hover {
 	opacity: 1;
+}
+
+.img-hover{
+	align-items: center;
 }
 
 .producto .datos {
@@ -169,6 +175,21 @@
 .producto .precios div span {
 	font-size: 30px;
 	font-weight: 600;
+}
+
+
+
+.normal{
+	background-color: #03cdff;
+	border-radius: 20px 0px 0px 20px;
+	margin-right: -20px ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	line-height: 1.1em;	
+}
+.normal small{
+	color: white;
 }
 
 .producto .btn-carrito {
@@ -257,6 +278,10 @@
 	.titulo .shape h2 {
 		font-size: 20px;
 	}
+
+	
+
+
 }
 
 @media screen and (max-width: 400px) {
@@ -271,4 +296,5 @@
 	.reseller{
 		color: #03cdff;
 	}
+	
 }
