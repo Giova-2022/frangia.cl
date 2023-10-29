@@ -13,8 +13,10 @@ button.addEventListener("click", () => {
     a.download = "catalogo2024.pdf";
     a.click();
 
-    // Envía una alerta
+    // Muestra la alerta
+  setTimeout(() => {
     alert("Gracias!... El catálogo se descargó con éxito.");
+  }, 1000);
   };
   xhr.send();
 });

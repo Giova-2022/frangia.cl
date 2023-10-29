@@ -10,7 +10,8 @@
                     <h1>PRECIOS</h1>
                     <h2>EXCLUSIVOS</h2>
                     <h3>Reseller</h3>
-                    <input type="button" value="Ver Catalogo" data-href="catalogos/catalogo2024.pdf">
+                    <a href="https://www.whatsapp.com/c/56936384308">
+                    <input type="button" value="Ver Catalogo" data-href="catalogos/catalogo2024.pdf" ></a>
                 </div>
                 
                 <div class="container__vector">

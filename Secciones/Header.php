@@ -34,9 +34,11 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#" class="select">HOME</a></li>
-                        <li><input id="btn__catalogo" type="button" value="Ver Catalogo" data-href="catalogos/catalogo2024.pdf"></li>
-                        <li><a href="#">COTIZACION</a></li>
-                        <li><a href="#">PRODUCTOS</a></li>
+                        <li><input id="btn__catalogo" type="button" value="MUESTRARIO 2024" data-href="catalogos/catalogo2024.pdf"></li>
+                        <li><a href="ventas@frangia.cl">COTIZACION</a></li>
+                        
+                        <li><a href="https://wa.me/C/56936384308">PRODUCTOS</a></li>
+                        
                     </ul>
                 </nav>
                 <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
