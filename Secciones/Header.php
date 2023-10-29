@@ -1,9 +1,26 @@
-<?php 
+<?php
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FSDKYHTPJH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FSDKYHTPJH');
+    </script>
+
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +30,7 @@
 
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    
+
     <link rel="StyleSheet" href="js/slickslider/slick.css">
     <link rel="StyleSheet" href="css/normalize.css">
     <link rel="StyleSheet" href="css/EstiloCard.Productos.css">
@@ -23,6 +40,7 @@
 
 
 </head>
+
 <body>
 
     <header id="header">
@@ -36,9 +54,9 @@
                         <li><a href="#" class="select">HOME</a></li>
                         <li><input id="btn__catalogo" type="button" value="MUESTRARIO 2024" data-href="catalogos/catalogo2024.pdf"></li>
                         <li><a href="ventas@frangia.cl">COTIZACION</a></li>
-                        
+
                         <li><a href="https://wa.me/C/56936384308">PRODUCTOS</a></li>
-                        
+
                     </ul>
                 </nav>
                 <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
