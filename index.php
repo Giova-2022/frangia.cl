@@ -1,7 +1,7 @@
-<?php include("secciones/Header.php");?>
+<?php include("Secciones/Header.php");?>
 
-<?php include("secciones/Cover.php");?>
-<?php include("secciones/carrusel.php");?>
+<?php include("Secciones/Cover.php");?>
+<?php include("Secciones/carrusel.php");?>
 
 
-<?php include("secciones/Footer.php");?>
+<?php include("Secciones/Footer.php");?>
