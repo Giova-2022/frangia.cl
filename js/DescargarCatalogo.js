@@ -1,4 +1,4 @@
-const button = document.querySelector("input[data-href='catalogos/catalogo2024.pdf']");
+const button = document.querySelector("input[data-href='catalogos/Muestrario2024.pdf']");
 button.addEventListener("click", () => {
   // Descarga el archivo
   const xhr = new XMLHttpRequest();
@@ -10,7 +10,7 @@ button.addEventListener("click", () => {
     // Guarda el archivo en el disco
     const a = document.createElement("a");
     a.href = window.URL.createObjectURL(blob);
-    a.download = "catalogo2024.pdf";
+    a.download = "Muestrario2024.pdf";
     a.click();
 
     // Muestra la alerta

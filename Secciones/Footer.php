@@ -1,8 +1,3 @@
-
-
-        <!-- NO TOCAR ÉSTE CÓDIGO...> AQUÍ TE DEJO EL TUTORIAL PARA QUE HAGAS ESTE CÓDIGO:
-        https://youtu.be/0V1Bs5nV6uo -->
-
         <Footer>
             <div class="container__footer">
 
@@ -46,7 +41,7 @@
 
             <div class="box__copyright">
                 <hr>
-                <p>Todos los derechos reservados © 2023 <br> <b>Impresiones Frangia</b></p>
+                <p>Todos los derechos reservados © 2023 <br> <b> <a href="https://wa.me/56936384308">Impresiones Frangia</a></b></p>
             </div>
         </Footer>
 
@@ -63,6 +58,13 @@
 <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 <!-- Carousel -->
 <script src="js/slickslider/slick.min.js"></script>
+<!-- Alertas Sweet Alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/opciones.js"></script>
+<script src="js/alertas/bienvenido.js"></script>
+<script src="js/alertas/Publicidad.js"></script>
+
+
 <!-- Starrr -->
 <script src="js/starrr.js"></script>
 <script type="text/javascript">

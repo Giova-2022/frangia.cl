@@ -627,3 +627,23 @@ footer{
     height: 1px;
     background-color: #7a7a7a;
 }
+
+
+
+
+/* css anuncios Pup UP*/
+.blanco{
+
+    color: white;
+
+}
+.boton__cotizar{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #146EB0;
+    
+
+
+}
