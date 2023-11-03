@@ -552,7 +552,7 @@ footer{
     padding: 50px 0px;
     font-family: 'Nunito', sans-serif;
     *background-color: var(--color-esqueleto);
-    background-image: url("../Images/background-footer.svg");
+    background-image: url("../images/footer.svg");
     background-size: cover;
 
     /*webkit-mask-image: url("../Images/background-footer.svg");

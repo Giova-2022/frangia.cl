@@ -26,19 +26,5 @@ Swal.fire({
     imageWidth: '120%',
     imageHeight: '80%',
     imageAlt: 'calendario Magnetico'
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
-
 
 })
