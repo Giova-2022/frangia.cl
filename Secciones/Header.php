@@ -53,7 +53,7 @@
                         <li><input id="btn__catalogo" type="button" value="MUESTRARIO 2024" data-href="catalogos/Muestrario2024.pdf"></li>
                         <li><a href="ventas@frangia.cl">COTIZACION</a></li>
 
-                        <li><a href="https://wa.me/C/56936384308">PRODUCTOS</a></li>
+                        <li><a href="producto.php">PRODUCTOS</a></li>
 
                     </ul>
                 </nav>
