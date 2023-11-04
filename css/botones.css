@@ -2,11 +2,12 @@
   width: 200px;
   height: 40px;
   border-radius: 20px;
-  background-color: #ffaa00;
-  color: #fff;
+  background-color: rgb(3, 230, 255);
+  color: #000000;
   font-size: 18px;
   margin-top: -50px;
   margin-bottom: 50px;
+   
 
   animation: boton-desplazandose 1s ease-in-out infinite;
 }
@@ -24,6 +25,29 @@
     transform: translate(0px, 0px);
   }
 }
+
+
+
+@media screen and (max-width: 760px) {
+
+  #btn__agente {
+    width: 120px;
+   
+    
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(3, 230, 255);
+    color: #000000;
+    font-size: 15px;
+    animation: boton-desplazandose 1s ease-in-out infinite;
+  }
+}
+
+
+
+
+
+
 /* fin boton agente*/
 
 /* boton registro */
