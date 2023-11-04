@@ -8,9 +8,7 @@
                     <div class="terms">
                        <p>Tu aliado para la impresión
 
-                        Somos una empresa especializada en la impresión de todo tipo de productos, desde calendarios y tarjetas hasta flyers y letreros.
-                        
-                        Nos apasiona ayudar a nuestros clientes a crear una marca sólida y memorable.</p>
+                        Somos un emprendimiento apasionados en ayudar a nuestros clientes los que quieren salir adelante.</p>
                     </div>
                 </div>
 
