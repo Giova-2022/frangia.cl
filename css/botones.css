@@ -1,6 +1,6 @@
 #btn__agente {
   width: 170px;
-  height: 70px;
+  height: 40px;
   border-radius: 20px;
   background-color: rgb(3, 230, 255);
   color: #000000;
@@ -64,7 +64,7 @@
   border-radius: 20px;
   background-color: #ffaa00;
   color: #fff;
-  font-size: 30px;
+  font-size: 15px;
   animation: boton-desplazandose 1s ease-in-out infinite;
 }
 
