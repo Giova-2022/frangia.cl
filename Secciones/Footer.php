@@ -61,7 +61,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/opciones.js"></script>
 <!-- btn y animaciones-->
-<script src="js/alertas/bienvenido.js"></script>
+
 <script src="js/alertas/publicidad.js"></script>
 
 <!-- btn y animaciones-->
