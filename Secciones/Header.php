@@ -34,7 +34,6 @@
 
     <link rel="StyleSheet" href="css/botones.css">
 
-    <link rel="StyleSheet" href="css/login.css">
 
 
 
@@ -54,11 +53,11 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#" class="select">HOME</a></li>
-                        <li><input id="btn__catalogo" type="button" value="MUESTRARIO 2024" data-href="catalogos/Muestrario2024.pdf"></li>
-                        <li><a href="ventas@frangia.cl">COTIZACION</a></li>
+                        <li> <input id="btn__catalogo" type="button" value="MUESTRARIO 2024" data-href="catalogos/Muestrario2024.pdf"></li>
+                        <li><a href="ventas@frangia.cl"> COTIZACION</a></li>
 
                         <li><a href="producto.php">PRODUCTOS</a></li>
-                        
+
                         <button id="btn__registro">
                             <i class="fa fa-user-plus"></i>
                             Registrarse

@@ -2,8 +2,8 @@
   width: 170px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(3, 230, 255);
-  color: #000000;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,10,167,1) 35%, rgba(5,44,52,1) 100%);
+  color: #ffffff;
   font-size: 18px;
   margin-top: -50px;
   margin-bottom: 50px;
@@ -39,7 +39,7 @@
     right: 20px;
     border-radius: 20px;
     background-color: rgb(3, 230, 255);
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     cursor: pointer;
     
