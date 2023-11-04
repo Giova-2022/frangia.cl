@@ -13,11 +13,18 @@
                     <i class="fa fa-user"></i>
                     AGENTE
                 </button>
+<<<<<<< HEAD
                 <br>
                 <br>
                 <br>
+=======
+>>>>>>> 6ba36a689bc1acb0cfd47409338886b83af41e5a
 
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 6ba36a689bc1acb0cfd47409338886b83af41e5a

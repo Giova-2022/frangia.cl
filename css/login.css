@@ -1,0 +1,22 @@
+#btn__agente {
+    float: right;
+    margin-top: -50px;
+    cursor: pointer;
+    
+    width: 200px;
+  }
+  
+  
+
+  #btn__agente {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+  }
+  #btn__agente :hover{
+    background: yellow;
+
+  }
+

@@ -31,7 +31,11 @@
     <link rel="StyleSheet" href="js/slickslider/slick.css">
     <link rel="StyleSheet" href="css/normalize.css">
     <link rel="StyleSheet" href="css/EstiloCard.Productos.css">
+
     <link rel="StyleSheet" href="css/botones.css">
+
+    <link rel="StyleSheet" href="css/login.css">
+
 
 
 
@@ -54,6 +58,7 @@
                         <li><a href="ventas@frangia.cl">COTIZACION</a></li>
 
                         <li><a href="producto.php">PRODUCTOS</a></li>
+                        
                         <button id="btn__registro">
                             <i class="fa fa-user-plus"></i>
                             Registrarse
