@@ -1,0 +1,99 @@
+#btn__agente {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffaa00;
+  color: #fff;
+  font-size: 18px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+
+  animation: boton-desplazandose 1s ease-in-out infinite;
+}
+
+@keyframes boton-desplazandose {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -10px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* fin boton agente*/
+
+/* boton registro */
+#btn__registro {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffaa00;
+  color: #fff;
+  font-size: 15px;
+  animation: boton-desplazandose 1s ease-in-out infinite;
+}
+
+@keyframes boton-desplazandose {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -10px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+
+  #btn__registro {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #5d5d5d;
+    color: #fff;
+    font-size: 15px;
+    animation: boton-desplazandose 1s ease-in-out infinite;
+  }
+}
+/* fin boton regristro */
+
+
+/* boton menu */
+#btn_menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #ff00fb;
+  font-size: 18px;
+
+  animation: boton-notificacion 1s ease-in-out infinite;
+}
+
+@keyframes boton-notificacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* fin boton menu */
