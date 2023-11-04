@@ -11,7 +11,7 @@ Swal.fire({
     background: 'linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(82,9,121,1) 39%, rgba(0,0,0,1) 100%)',
     grow: false,
     backdrop: false,
-    timer: 3000,
+    timer: 4000,
     timerProgressBar: true,
     toast: false,
     position: 'bottom-start',  //bottom-start
