@@ -8,9 +8,7 @@
                     <div class="terms">
                        <p>Tu aliado para la impresión
 
-                        Somos una empresa especializada en la impresión de todo tipo de productos, desde calendarios y tarjetas hasta flyers y letreros.
-                        
-                        Nos apasiona ayudar a nuestros clientes a crear una marca sólida y memorable.</p>
+                        Somos un emprendimiento apasionados en ayudar a nuestros clientes los que quieren salir adelante.</p>
                     </div>
                 </div>
 
@@ -58,6 +56,8 @@
 <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 <!-- Carousel -->
 <script src="js/slickslider/slick.min.js"></script>
+<!-- login js -->
+<script src="js/login.js"></script>
 <!-- Alertas Sweet Alert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/opciones.js"></script>

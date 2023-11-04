@@ -549,9 +549,8 @@ nav ul li a{
 /*AQUI COMIENZA EL FOOTER*/
 footer{
     width: 100%;
-    padding: 50px 0px;
     font-family: 'Nunito', sans-serif;
-    *background-color: var(--color-esqueleto);
+    background-color: var(--color-esqueleto);
     background-image: url("../images/footer.svg");
     background-size: cover;
 
