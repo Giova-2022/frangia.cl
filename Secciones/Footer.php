@@ -3,7 +3,7 @@
 
                 <div class="box__footer">
                     <div class="logo">
-                        <img src="assets/images/Logo/logo2024-GRIS.png" alt="">
+                        <img src="assets/images/Logo/logo2024-GRIS.png" alt="Logo Imnpresiones Frangia">
                     </div>
                     <div class="terms">
                        <p>Tu aliado para la impresión
