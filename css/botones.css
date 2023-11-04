@@ -1,6 +1,6 @@
 #btn__agente {
-  width: 200px;
-  height: 40px;
+  width: 170px;
+  height: 70px;
   border-radius: 20px;
   background-color: rgb(3, 230, 255);
   color: #000000;
@@ -31,20 +31,27 @@
 @media screen and (max-width: 760px) {
 
   #btn__agente {
-    width: 120px;
-   
+    width: 160px;  
+    height: 40px;
     
-    height: 30px;
+    position: absolute;
+    top: 95px;
+    right: 20px;
     border-radius: 20px;
     background-color: rgb(3, 230, 255);
     color: #000000;
-    font-size: 15px;
-    animation: boton-desplazandose 1s ease-in-out infinite;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+
+
+    animation: boton-desplazandose 2.5s ease-in-out infinite;
   }
+
+
+
 }
-
-
-
 
 
 
@@ -57,7 +64,7 @@
   border-radius: 20px;
   background-color: #ffaa00;
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
   animation: boton-desplazandose 1s ease-in-out infinite;
 }
 
