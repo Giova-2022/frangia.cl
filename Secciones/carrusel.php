@@ -14,7 +14,7 @@
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="images/productos/magnetico.png">
+                    <img src="images/productos/magnetico.png" alt="calendario magnetico">
                       <!-- Imagen de producto para hover 
                     <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>
@@ -43,7 +43,7 @@
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="images/productos/Flyers-baratos.png">
+                    <img src="images/productos/Flyers-baratos.png" alt="flyers economicos">
                       <!-- Imagen de producto para hover 
                     <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>
@@ -72,7 +72,7 @@
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="images/productos/tarjetadepresentacion.png">
+                    <img src="images/productos/tarjetadepresentacion.png" alt="tarjeta de presentacion">
                       <!-- Imagen de producto para hover 
                     <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>

@@ -44,7 +44,7 @@
     <header id="header">
         <div class="container__header">
             <div class="logo">
-                <img src="assets/images/Logo/logo2024-web.png" alt="">
+                <a href="index.php"><img src="assets/images/Logo/logo2024-web.png" alt="impresiones frangia"></a>
             </div>
             <div class="container__nav">
                 <nav id="nav">
