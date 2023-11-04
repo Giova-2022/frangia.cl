@@ -31,7 +31,11 @@
     <link rel="StyleSheet" href="js/slickslider/slick.css">
     <link rel="StyleSheet" href="css/normalize.css">
     <link rel="StyleSheet" href="css/EstiloCard.Productos.css">
+<<<<<<< HEAD
     <link rel="StyleSheet" href="css/botones.css">
+=======
+    <link rel="StyleSheet" href="css/login.css">
+>>>>>>> 6ba36a689bc1acb0cfd47409338886b83af41e5a
 
 
 
