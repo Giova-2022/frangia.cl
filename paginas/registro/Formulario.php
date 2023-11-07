@@ -61,12 +61,10 @@
         
 
         <input class="btn" type="submit" name="Registar" value="enviar">
+</form>
 
 
-
-
-
-    </form>
+<?php include("registrar.php") ?>
 
 
 
