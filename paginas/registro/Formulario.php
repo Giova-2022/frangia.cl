@@ -13,58 +13,54 @@
 <body>
 
 
-    <form action="" method="post">
+    <form method="post">
 
-        <h2>Formulario de Registro</h2>
-        <small>los datos proporcionados son exclusivamente para llevar un mejor control con tus ordenes de trabajo y poder realizar una <b>mejor atencion</p>
-
-        <!-- ingreso de nombre-->
-        <div class="input-wrapper">
-            <input type="text" name="name" placeholder="Nombre:">
-            <img class="input-icon" src="../../images/name.svg" alt="">
-        </div>
-        <!-- ingreso de apellido-->
-        <div class="input-wrapper">
-            <input type="text" name="apellido" placeholder="Apellido:">
-        </div>
-        <!-- ingreso de rut-->
-        <div class="input-wrapper">
-            <input type="text" name="rut" placeholder="Rut:">
-        </div>
-        <br>
-        <hr>
-          <!-- ingreso de direccion-->
-          <div class="input-wrapper">
-            <input type="text" name="direccion" placeholder="Direccion:">
-            <img class="input-icon" src="../../images/direction.svg" alt="">
-        </div>
-        <!-- ingreso de comuna-->
-        <div class="input-wrapper">
-            <input type="text" name="comuna" placeholder="Comuna:">
-        </div>
-        <!-- ingreso de ciudad-->
-        <div class="input-wrapper">
-            <input type="text" name="ciudad" placeholder="Ciudad:">
-        </div>
-        <br>
-        <hr>
-        <!-- ingreso de telefono-->
-        <div class="input-wrapper">
-            <input type="tel" name="telefono" placeholder="Telefono:">
-            <img class="input-icon" src="../../images/phone.svg" alt="">
-        </div>
-        <!-- ingreso de correo-->
-        <div class="input-wrapper">
-            <input type="email" name="correo" placeholder="Correo:">
-            <img class="input-icon" src="../../images/email.svg" alt="">
-        </div>
-        
-
-        <input class="btn" type="submit" name="Registar" value="enviar">
-</form>
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <h6>los datos proporcionados son exclusivamente para llevar un mejor control con tus ordenes de trabajo y poder realizar una <b>mejor atencion</p>
 
 
-<?php include("registrar.php") ?>
+                <div class="input-wrapper">
+                    <input type="text" name="name" placeholder="Nombre:">
+                    <img class="input-icon" src="../../images/name.svg" alt="">
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="apellido" placeholder="Apellido:">
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="rut" placeholder="Rut:">
+                </div>
+                <br>
+                <hr>
+                <div class="input-wrapper">
+                    <input type="text" name="direccion" placeholder="Direccion:">
+                    <img class="input-icon" src="../../images/direction.svg" alt="">
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="comuna" placeholder="Comuna:">
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="ciudad" placeholder="Ciudad:">
+                </div>
+                <br>
+                <hr>
+                <div class="input-wrapper">
+                    <input type="tel" name="telefono" placeholder="Telefono:">
+                    <img class="input-icon" src="../../images/phone.svg" alt="">
+                </div>
+                <div class="input-wrapper">
+                    <input type="email" name="correo" placeholder="Correo:">
+                    <img class="input-icon" src="../../images/email.svg" alt="">
+                </div>
+
+                <input class="btn" type="submit" name="register" value="Enviar">
+
+
+                <br>
+                <span class="span_form">Cualquier duda o consulta escribenos Haz <a href="https://wa.me/56936384308" target="_blank"><b>Clik!</b></span></a>
+    </form>
+
+
+    <?php include("registrar.php") ?>
 
 
 
