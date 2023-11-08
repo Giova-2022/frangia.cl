@@ -14,6 +14,7 @@
 
 
     <form method="post">
+        
 
         <h2>FORMULARIO DE REGISTRO</h2>
         <h6>los datos proporcionados son exclusivamente para llevar un mejor control con tus ordenes de trabajo y poder realizar una <b>mejor atencion</p>
