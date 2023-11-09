@@ -96,6 +96,34 @@
                 </div>
                 <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
             </div>
+            <!-- CALENDARIO FULL COLOR -->
+            <div class="producto item">
+                <div class="contenedor-imagen">
+                    <a href="#" class="link"></a>
+                    <img src="images/productos/calendariopersonalizado.png" alt="tarjeta de presentacion">
+                      <!-- Imagen de producto para hover 
+                    <img src="images/productos/magnetico.png" class="img-hover"> -->
+                </div>
+                <div class="datos">
+                    <div class="starrr"></div>
+                    <small><a href="#">calendarios</a></small>
+                    <h3><a href="#">Calendario personalizado<br>FULL COLOR</a></h3>
+                    <small>Cantidad: 1000 und.</small> <br>
+                    <small>Impresion: Offset</small> <br>
+                    <small>Papel: Duplex 230g.</small>
+                </div>
+                <div class="precios">
+                    <div class="internet">
+                        <small class="reseller">RESELLER</small>
+                        <span>$290.000</span>
+                    </div>
+                    <div class="normal">
+                        <small>NORMAL</small>
+                        <span>$390.000</span>
+                    </div>
+                </div>
+                <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
+            </div>
 
 
         </div>
