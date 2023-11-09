@@ -14,7 +14,7 @@
 
 
     <form method="post">
-        
+
 
         <h2>FORMULARIO DE REGISTRO</h2>
         <h6>los datos proporcionados son exclusivamente para llevar un mejor control con tus ordenes de trabajo y poder realizar una <b>mejor atencion</p>
@@ -58,17 +58,11 @@
 
                 <br>
                 <span class="span_form">Cualquier duda o consulta escribenos Haz <a href="https://wa.me/56936384308" target="_blank"><b>Clik!</b></span></a>
+                <br>
     </form>
 
 
-    <?php include("registrar.php") ?>
-
-
-
-
-
+    <?php include("registrar.php"); ?>
 </body>
-
-
 
 </html>

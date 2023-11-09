@@ -6,9 +6,9 @@
 
         <div class="container__cover">
             <div class="container__info">
-                <h1 id="cover_titulo">PRECIOS</h1>
-                <h2 id="cover_subtitulo">EXCLUSIVOS</h2>
-                <h3 id="cover_accion">Reseller</h3>
+                <h1 id="cover_titulo">CALENDARIO</h1>
+                <h2 id="cover_subtitulo">Magnetico</h2>
+                <small id="cover_accion">desde 100 und.</small>
                 <br>
                 <br>
 
