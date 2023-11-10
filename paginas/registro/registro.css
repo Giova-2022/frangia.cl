@@ -127,19 +127,7 @@ input::placeholder {
 }
 
 
-.mensaje{
-    margin: 0 auto;
-    width: 350px;
-    font-size: 30px;
-    position: relative;
-   color: white;
-    border-radius: 20px;
-    right: -400px;
-    bottom: 650px;
-    padding: 120px 10px 30px 10px;          
-   
 
-}
 
 @media(max-width:991px) {
     body {
@@ -211,17 +199,6 @@ input::placeholder {
     }
     
    
-
-    .mensaje{
-            margin: 0 auto;
-            width: 350px;
-            font-size: 25px;
-            position: relative;
-            border-radius: 20px;
-            right: 10px;
-            bottom: 500px;
-            color: #000000;
-            padding: 120px 10px 30px 10px;           
 
     }
     .span_form {

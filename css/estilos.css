@@ -273,7 +273,7 @@ nav ul li a {
     position: absolute;
     bottom: -100px;
     right: 0px;
-    width: 600px;
+    width: 500px;
     transition: all 300ms;
     animation: move_vector 6s ease-in-out infinite;
 }
@@ -379,7 +379,7 @@ nav ul li a {
     }
 
     .cover small {
-        font-size: 16px;
+        font-size: 26px;
         color: #a5a5a5;
         margin-top: -30px;
 
@@ -387,9 +387,9 @@ nav ul li a {
 
     .container__vector img {
         position: absolute;
-        bottom: -160px;
+        bottom: -140px;
         right: -50px;
-        width: 400px;
+        width: 350px;
         transition: all 300ms;
         animation: move_vector 6s ease-in-out infinite;
     }
