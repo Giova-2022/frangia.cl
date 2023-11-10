@@ -1,8 +1,5 @@
-
-
-
-
 <?php
+// Conexión a la base de datos
 // Conexión a la base de datos
 include("conexion.php");
 
@@ -31,23 +28,32 @@ if (isset($_POST['register'])) {
         $ingreso = date("d/m/y");
 
 
-        // Inserción de datos
-        $consulta = "INSERT INTO `clientes`(`ID`, `nombre`, `apellido`, `rut`, `direccion`, `comuna`, `ciudad`, `telefono`, `correo`, `ingreso`)
-        VALUES (NULL,'$name','$apellido','$rut','$direccion','$comuna','$ciudad','$telefono','$correo','$ingreso')";
-
+        // Consulta para verificar si el rut ya existe
+        $consulta = "SELECT * FROM clientes WHERE rut = '$rut'";
 
         $resultado = mysqli_query($db, $consulta);
 
-        // Verificación de resultado
-        if ($resultado) {
-            // Registro exitoso
-            $mensaje = "🎉Tu registro fue realizado con éxito";
-
-            // Redireccionamiento
-            header("Location: ../../../../index.php");
+        // Si el registro existe, no se realiza la inserción
+        if (mysqli_num_rows($resultado) > 0) {
+            $mensaje = " UP! $name 📌 El rut ya se encuentra  registrado";
         } else {
-            // Error al registrar
-            $mensaje = "😭 <b>Up!</b> Error al registrar";
+            // Inserción de datos
+            $consulta = "INSERT INTO `clientes`(`ID`, `nombre`, `apellido`, `rut`, `direccion`, `comuna`, `ciudad`, `telefono`, `correo`, `ingreso`)
+            VALUES (NULL,'$name','$apellido','$rut','$direccion','$comuna','$ciudad','$telefono','$correo','$ingreso')";
+
+            $resultado = mysqli_query($db, $consulta);
+
+            // Verificación de resultado
+            if ($resultado) {
+                // Registro exitoso
+                $mensaje = " Bienvenido $name 🎉Tu registro fue realizado con éxito";
+
+                // Redireccionamiento
+                header("Location: ../../index.php");
+            } else {
+                // Error al registrar
+                $mensaje = "😭 Up! Error al registrar";
+            }
         }
     } else {
         // Campos vacíos
@@ -62,5 +68,8 @@ if (isset($_POST['register'])) {
 <div class="mensaje">
 
     <?php echo $mensaje; ?>
+    
+  
+
 
 </div>

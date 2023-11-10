@@ -7,7 +7,8 @@
     <title>Registro de cliente</title>
     <link rel="icon" type="image/x-icon" href="../../favicon.ico">
     <link rel="stylesheet" href="registro.css">
-
+    <link rel="stylesheet" href="../../css/botones.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>d
 </head>
 
 <body>
