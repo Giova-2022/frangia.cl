@@ -1,7 +1,8 @@
-<!-- Formulario de registro de clientes-->
+
+
+
 
 <?php
-
 // Conexión a la base de datos
 include("conexion.php");
 
@@ -30,17 +31,20 @@ if (isset($_POST['register'])) {
         $ingreso = date("d/m/y");
 
 
-            // Inserción de datos
-            $consulta = "INSERT INTO `clientes`(`ID`, `nombre`, `apellido`, `rut`, `direccion`, `comuna`, `ciudad`, `telefono`, `correo`, `ingreso`)
+        // Inserción de datos
+        $consulta = "INSERT INTO `clientes`(`ID`, `nombre`, `apellido`, `rut`, `direccion`, `comuna`, `ciudad`, `telefono`, `correo`, `ingreso`)
         VALUES (NULL,'$name','$apellido','$rut','$direccion','$comuna','$ciudad','$telefono','$correo','$ingreso')";
 
-      
-      $resultado = mysqli_query($db, $consulta);
+
+        $resultado = mysqli_query($db, $consulta);
 
         // Verificación de resultado
         if ($resultado) {
             // Registro exitoso
             $mensaje = "🎉Tu registro fue realizado con éxito";
+
+            // Redireccionamiento
+            header("Location: ../../../../index.php");
         } else {
             // Error al registrar
             $mensaje = "😭 <b>Up!</b> Error al registrar";
@@ -57,8 +61,6 @@ if (isset($_POST['register'])) {
 
 <div class="mensaje">
 
-<?php echo $mensaje;?>
+    <?php echo $mensaje; ?>
 
 </div>
-
-
