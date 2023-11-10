@@ -31,10 +31,11 @@ if (isset($_POST['register'])) {
 
 
             // Inserción de datos
-        $consulta = "INSERT INTO clientes (nombre, apellido, rut, direccion, comuna, ciudad, telefono, correo, ingreso)
-        VALUES (null,'$name','$apellido','$rut','$direccion','$comuna','$ciudad','$telefono','$correo','$ingreso')";
+            $consulta = "INSERT INTO `clientes`(`ID`, `nombre`, `apellido`, `rut`, `direccion`, `comuna`, `ciudad`, `telefono`, `correo`, `ingreso`)
+        VALUES (NULL,'$name','$apellido','$rut','$direccion','$comuna','$ciudad','$telefono','$correo','$ingreso')";
 
-        $resultado = mysqli_query($db, $consulta);
+      
+      $resultado = mysqli_query($db, $consulta);
 
         // Verificación de resultado
         if ($resultado) {
