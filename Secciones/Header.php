@@ -57,6 +57,8 @@
                         <li><a href="ventas@frangia.cl" target="_blank"> COTIZACION</a></li>
 
                         <li><a href="producto.php">PRODUCTOS</a></li>
+                        <li><a href="admin/index.php">ADMIN</a></li>
+
                         
                         <button id="btn__registro"><a href="paginas/registro/Formulario.php" target="_blank">
                             <i class="fa fa-user-plus"></i>
