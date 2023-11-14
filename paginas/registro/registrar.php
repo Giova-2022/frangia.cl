@@ -1,6 +1,5 @@
 <?php
 // Conexión a la base de datos
-// Conexión a la base de datos
 include("conexion.php");
 
 // Validación de datos
