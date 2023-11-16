@@ -6,7 +6,7 @@ if ($_POST) {
 
 
 
-    
+
     // Recepcionamos los valores del formulario
     $categoria = (isset($_POST['categoria'])) ? $_POST['categoria'] : "";
     $titulo = (isset($_POST['titulo'])) ? $_POST['titulo'] : "";
@@ -20,15 +20,18 @@ if ($_POST) {
     $link = (isset($_POST['link'])) ? $_POST['link'] : "";
     $imagen = (isset($_FILES["imagen"]["name"])) ? $_FILES["imagen"]["name"] : "";
 
- 
 
+    
     $fecha_imagen = new DateTime();
-    $nombre_archivo_imagen = ($imagen != "") ? $fecha_imagen->getTimestamp() . "_" . $imagen : "";
+    $nombre_archivo_imagen = ($imagen != "") ? $fecha_imagen->getTimestamp()."_".$imagen : "";
 
     $tmp_imagen = $_FILES["imagen"]["tmp_name"];
     if ($tmp_imagen != "") {
-        move_uploaded_file($tmp_imagen, "../../../assets/images/productos/" . $nombre_archivo_imagen);
+        move_uploaded_file($tmp_imagen, "../../../assets/images/productos/".$nombre_archivo_imagen);
     }
+    
+
+
 
     $sentencia = $conexion->prepare("INSERT INTO `productos`
     (`ID`, `categoria`, `titulo`, `impresion`, `cantidad`, `tipodeimpresion`, `papel`, `reseller`, `precio`, `btn`, `link`, `imagen`)
@@ -44,10 +47,10 @@ if ($_POST) {
     $sentencia->bindParam(":precio", $precio);
     $sentencia->bindParam(":btn", $btn);
     $sentencia->bindParam(":link", $link);
-    $sentencia->bindParam(":imagen", $imagen);
+    $sentencia->bindParam(":imagen", $nombre_archivo_imagen);
 
     $sentencia->execute();
-    $mensaje = "Registro agregado con éxito.";
+    $mensaje = " Producto agregado con éxito.";
     header("Location:index.php?mensaje=" . $mensaje);
 }
 
@@ -63,59 +66,52 @@ include("../../templates/header.php");
         <form action="" enctype="multipart/form-data" method="post">
 
 
-            <div class="mb-3">
-                <label for="" class="form-label">ID</label>
-                <input type="text" class="form-control" readonly name="txtID" id="txtID" value="<?php echo $txtID; ?>" aria-describedby="helpId" placeholder="">
-
-            </div>
 
             <div class="mb-3">
                 <label for="titulo" class="form-label">categoria:</label>
-                <input type="text" class="form-control" value="<?php echo $categoria; ?>" name="categoria" id="categoria" aria-describedby="helpId" placeholder="categoria">
+                <input type="text" class="form-control" name="categoria" id="categoria" aria-describedby="helpId" placeholder="categoria">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">titulo:</label>
-                <input type="text" class="form-control" value="<?php echo $titulo; ?>" name="titulo" id="titulo" aria-describedby="helpId" placeholder="titulo">
+                <input type="text" class="form-control" name="titulo" id="titulo" aria-describedby="helpId" placeholder="titulo">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">impresion:</label>
-                <input type="text" class="form-control" value="<?php echo $impresion; ?>" name="impresion" id="impresion" aria-describedby="helpId" placeholder="impresion">
+                <input type="text" class="form-control" name="impresion" id="impresion" aria-describedby="helpId" placeholder="impresion">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">cantidad:</label>
-                <input type="text" class="form-control" value="<?php echo $cantidad; ?>" name="cantidad" id="cantidad" aria-describedby="helpId" placeholder="cantidad">
+                <input type="text" class="form-control" name="cantidad" id="cantidad" aria-describedby="helpId" placeholder="cantidad">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">tipodeimpresion:</label>
-                <input type="text" class="form-control" value="<?php echo $tipodeimpresion; ?>" name="tipodeimpresion" id="tipodeimpresion" aria-describedby="helpId" placeholder="tipodeimpresion">
+                <input type="text" class="form-control" name="tipodeimpresion" id="tipodeimpresion" aria-describedby="helpId" placeholder="tipodeimpresion">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">papel:</label>
-                <input type="text" class="form-control" value="<?php echo $papel; ?>" name="papel" id="papel" aria-describedby="helpId" placeholder="papel">
+                <input type="text" class="form-control" name="papel" id="papel" aria-describedby="helpId" placeholder="papel">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">reseller:</label>
-                <input type="text" class="form-control" value="<?php echo $reseller; ?>" name="reseller" id="reseller" aria-describedby="helpId" placeholder="reseller">
+                <input type="text" class="form-control" name="reseller" id="reseller" aria-describedby="helpId" placeholder="reseller">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">precio:</label>
-                <input type="text" class="form-control" value="<?php echo $precio; ?>" name="precio" id="precio" aria-describedby="helpId" placeholder="precio">
+                <input type="text" class="form-control" name="precio" id="precio" aria-describedby="helpId" placeholder="precio">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">btn:</label>
-                <input type="text" class="form-control" value="<?php echo $btn; ?>" name="btn" id="btn" aria-describedby="helpId" placeholder="btn">
+                <input type="text" class="form-control" name="btn" id="btn" aria-describedby="helpId" placeholder="btn">
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">link:</label>
-                <input type="text" class="form-control" value="<?php echo $link; ?>" name="link" id="link" aria-describedby="helpId" placeholder="link del boton">
+                <input type="text" class="form-control" name="link" id="link" aria-describedby="helpId" placeholder="link del boton">
             </div>
-
             <div class="mb-3">
                 <label for="imagen" class="form-label">Imagen:</label>
-                <img width="50" src="../../../assets/images/productos/<?php echo $imagen; ?>" />
                 <input type="file" class="form-control" name="imagen" id="imagen" placeholder="Imagen" aria-describedby="fileHelpId">
-
             </div>
+
             <button type="submit" class="btn btn-success">Agregar</button>
             <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>
         </form>

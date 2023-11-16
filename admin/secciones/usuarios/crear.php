@@ -7,8 +7,7 @@ if($_POST){
     $password=(isset($_POST["password"]))?$_POST["password"]:"";
     $correo=(isset($_POST["correo"]))?$_POST["correo"]:"";
 
-    $sentencia=$conexion->prepare("INSERT INTO `usuario`
-    (`ID`, `usuario`, `password`, `correo`) 
+    $sentencia=$conexion->prepare("INSERT INTO `usuario` (`ID`, `usuario`, `password`, `correo`) 
     VALUES (NULL,:usuario,:password,:correo);");
 
    $sentencia->bindParam(":usuario",$usuario);

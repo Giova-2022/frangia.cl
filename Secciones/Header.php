@@ -1,3 +1,18 @@
+
+<?php
+include("admin/conexion.php");
+
+
+
+
+// seleccionar registros de Productos
+$sentencia=$conexion->prepare("SELECT * FROM `productos`");
+$sentencia->execute();
+$lista_portfolio=$sentencia->fetchAll(PDO::FETCH_ASSOC);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 

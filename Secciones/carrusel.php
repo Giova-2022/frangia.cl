@@ -1,5 +1,8 @@
-
-    <!-- Insertar Aquí contenido -->
+<?php foreach ($lista_portfolio as $registros) { ?>
+   
+   
+   
+   <!-- Insertar Aquí contenido -->
     <div class="contenedor">
         <div class="titulo">
             <div class="shape right-skew">
@@ -14,117 +17,35 @@
             <div class="producto item">
                 <div class="contenedor-imagen">
                     <a href="#" class="link"></a>
-                    <img src="images/productos/magnetico.png" alt="calendario magnetico">
+                    <img src="../assets/images/productos/ <?php echo $registros["imagen"]; ?>" alt="calendario magnetico">
                       <!-- Imagen de producto para hover 
                     <img src="images/productos/magnetico.png" class="img-hover"> -->
                 </div>
-                <div class="datos">
-                    <div class="starrr"></div>
-                    <small><a href="#">Calendario</a></small>
-                    <h3><a href="#">CALENDARIO MAGNETICO <br> 6.5x9  FULL COLOR</a></h3>
-                    <small>Cantidad: 100 und.</small> <br>
-                    <small>Impresion: Laser</small> <br>
-                    <small>iman: 3.3mm</small>
-                </div>
-                <div class="precios">
-                    <div class="internet">
-                        <small class="reseller">RESELLER</small>
-                        <span>$20.000</span>
-                    </div>
-                    <div class="normal">
-                        <small>NORMAL</small>
-                        <span>$29.990</span>
-                    </div>
-                </div>
-                <a href="https://www.whatsapp.com/product/5961004663934476/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
-            </div>
-            
-            <!-- Flyer 10x14 Tiro -->
-            <div class="producto item">
-                <div class="contenedor-imagen">
-                    <a href="#" class="link"></a>
-                    <img src="images/productos/Flyers-baratos.png" alt="flyers economicos">
-                      <!-- Imagen de producto para hover 
-                    <img src="images/productos/magnetico.png" class="img-hover"> -->
-                </div>
-                <div class="datos">
-                    <div class="starrr"></div>
-                    <small><a href="#">Flyers</a></small>
-                    <h3><a href="#">Flyers impresion un lado <br>FULL COLOR</a></h3>
-                    <small>Cantidad: 1000 und.</small> <br>
-                    <small>Impresion: Offset</small> <br>
-                    <small>Papel: Couche 170g.</small>
-                </div>
-                <div class="precios">
-                    <div class="internet">
-                        <small class="reseller">RESELLER</small>
-                        <span>$20.250</span>
-                    </div>
-                    <div class="normal">
-                        <small>NORMAL</small>
-                        <span>$27.000</span>
-                    </div>
-                </div>
-                <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
-            </div>
 
-            <!-- Tarjetas Tiro -->
-            <div class="producto item">
-                <div class="contenedor-imagen">
-                    <a href="#" class="link"></a>
-                    <img src="images/productos/tarjetadepresentacion.png" alt="tarjeta de presentacion">
-                      <!-- Imagen de producto para hover 
-                    <img src="images/productos/magnetico.png" class="img-hover"> -->
-                </div>
                 <div class="datos">
                     <div class="starrr"></div>
-                    <small><a href="#">Tarjetas</a></small>
-                    <h3><a href="#">Tarjeta de presentación<br>FULL COLOR</a></h3>
-                    <small>Cantidad: 1000 und.</small> <br>
-                    <small>Impresion: Offset</small> <br>
-                    <small>Papel: Couche 300g.</small>
+                    <small><a href="#"><?php echo $registros["titulo"]; ?></a></small>
+                    <h3><a href="#"><?php echo $registros["cetegoria"]; ?></a></h3>
+                    <small>Cantidad: <?php echo $registros["cantidad"]; ?></small> <br>
+                    <small>Impresion:<?php echo $registros["tipodeimpresion"]; ?></small> <br>
+                    <small>Papel: <?php echo $registros["papel"]; ?></small>
                 </div>
                 <div class="precios">
                     <div class="internet">
                         <small class="reseller">RESELLER</small>
-                        <span>$18.000</span>
+                        <span><?php echo $registros["reseller"]; ?></span>
                     </div>
                     <div class="normal">
                         <small>NORMAL</small>
-                        <span>$29.990</span>
+                        <span><?php echo $registros["precio"]; ?></span>
                     </div>
                 </div>
-                <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
+                <a href="<?php echo $registros["link"]; ?>" class="btn-carrito"><i class="fas fa-shopping-basket"></i><?php echo $registros["btn"]; ?></a>
             </div>
-            <!-- CALENDARIO FULL COLOR -->
-            <div class="producto item">
-                <div class="contenedor-imagen">
-                    <a href="#" class="link"></a>
-                    <img src="images/productos/calendariopersonalizado.png" alt="tarjeta de presentacion">
-                      <!-- Imagen de producto para hover 
-                    <img src="images/productos/magnetico.png" class="img-hover"> -->
-                </div>
-                <div class="datos">
-                    <div class="starrr"></div>
-                    <small><a href="#">calendarios</a></small>
-                    <h3><a href="#">Calendario personalizado<br>FULL COLOR</a></h3>
-                    <small>Cantidad: 1000 und.</small> <br>
-                    <small>Impresion: Offset</small> <br>
-                    <small>Papel: Duplex 230g.</small>
-                </div>
-                <div class="precios">
-                    <div class="internet">
-                        <small class="reseller">RESELLER</small>
-                        <span>$290.000</span>
-                    </div>
-                    <div class="normal">
-                        <small>NORMAL</small>
-                        <span>$390.000</span>
-                    </div>
-                </div>
-                <a href="https://www.whatsapp.com/product/6213885918649016/56936384308" class="btn-carrito"><i class="fas fa-shopping-basket"></i>Ver más</a>
-            </div>
+             
 
 
         </div>
     </div>
+    <?php } ?>
+    
