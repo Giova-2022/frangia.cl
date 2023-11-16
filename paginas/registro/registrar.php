@@ -48,7 +48,7 @@ if (isset($_POST['register'])) {
                 $mensaje = " Bienvenido $name 🎉Tu registro fue realizado con éxito";
 
                 // Redireccionamiento
-                header("Location: ../../index.php");
+                header("Location:../../index.php");
             } else {
                 // Error al registrar
                 $mensaje = "😭 Up! Error al registrar";

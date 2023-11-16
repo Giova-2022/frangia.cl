@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -56,13 +55,13 @@
                         <li> <input id="btn__catalogo" type="button" value="MUESTRARIO 2024" data-href="catalogos/Muestrario2024.pdf"></li>
                         <li><a href="ventas@frangia.cl" target="_blank"> COTIZACION</a></li>
 
-                        <li><a href="producto.php">PRODUCTOS</a></li>
+                        <br><br><br>
                         <li><a href="admin/index.php">ADMIN</a></li>
 
-                        
+
                         <button id="btn__registro"><a href="paginas/registro/Formulario.php" target="_blank">
-                            <i class="fa fa-user-plus"></i>
-                            Registrarse</a>
+                                <i class="fa fa-user-plus"></i>
+                                Registrarse</a>
                         </button>
 
                     </ul>

@@ -13,7 +13,7 @@
                 <br>
 
                 <a href="https://www.whatsapp.com/56936384308">
-                    <button id="btn__agente"><i class="fa fa-user"></i>AGENTE</button>
+                    <button id="btn__agente"><i class="fa fa-user"></i>  AGENDAR</button>
                 </a>
             </div>
 

@@ -1,13 +1,30 @@
 <?php
 include("../../conexion.php");
 
+if (isset($_GET['txtID'])) {
+
+    $txtID = (isset($_GET['txtID'])) ? $_GET['txtID'] : "";
+
+    $sentencia = $conexion->prepare(" SELECT * FROM productos WHERE id=:id ");
+    $sentencia->bindParam(":id", $txtID);
+    $sentencia->execute();
+    $registro = $sentencia->fetch(PDO::FETCH_LAZY);
+
+    $categoria = $registro['categoria'];
+    $titulo = $registro["titulo"];
+    $impresion = $registro["impresion"];
+    $cantidad = $registro["cantidad"];
+    $tipodeimpresion = $registro["tipodeimpresion"];
+    $papel = $registro["papel"];
+    $reseller = $registro["reseller"];
+    $precio = $registro["precio"];
+    $btn = $registro["btn"];
+    $link = $registro["link"];
+}
 if ($_POST) {
 
-
-
-
-    
     // Recepcionamos los valores del formulario
+    $txtID = (isset($_POST['txtID'])) ? $_POST['txtID'] : "";
     $categoria = (isset($_POST['categoria'])) ? $_POST['categoria'] : "";
     $titulo = (isset($_POST['titulo'])) ? $_POST['titulo'] : "";
     $impresion = (isset($_POST['impresion'])) ? $_POST['impresion'] : "";
@@ -19,20 +36,20 @@ if ($_POST) {
     $btn = (isset($_POST['btn'])) ? $_POST['btn'] : "";
     $link = (isset($_POST['link'])) ? $_POST['link'] : "";
     $imagen = (isset($_FILES["imagen"]["name"])) ? $_FILES["imagen"]["name"] : "";
-
- 
-
-    $fecha_imagen = new DateTime();
-    $nombre_archivo_imagen = ($imagen != "") ? $fecha_imagen->getTimestamp() . "_" . $imagen : "";
-
-    $tmp_imagen = $_FILES["imagen"]["tmp_name"];
-    if ($tmp_imagen != "") {
-        move_uploaded_file($tmp_imagen, "../../../assets/images/productos/" . $nombre_archivo_imagen);
-    }
-
-    $sentencia = $conexion->prepare("INSERT INTO `productos`
-    (`ID`, `categoria`, `titulo`, `impresion`, `cantidad`, `tipodeimpresion`, `papel`, `reseller`, `precio`, `btn`, `link`, `imagen`)
-    VALUES (NULL, :categoria, :titulo, :impresion, :cantidad, :tipodeimpresion, :papel, :reseller, :precio, :btn, :link, :imagen);");
+    
+    $sentencia = $conexion->prepare("UPDATE productos 
+     SET 
+     categoria=:categoria,
+     titulo=:titulo,
+     descripcion=:descripcion,
+     impresion=:impresion,
+     tipodeimpresion=:tipodeimpresion,
+     papel=:papel,
+     reseller=:reseller,
+     precio=:precio,
+     btn=:btn,
+     link=:link
+     WHERE id=:id ");
 
     $sentencia->bindParam(":categoria", $categoria);
     $sentencia->bindParam(":titulo", $titulo);
@@ -44,20 +61,50 @@ if ($_POST) {
     $sentencia->bindParam(":precio", $precio);
     $sentencia->bindParam(":btn", $btn);
     $sentencia->bindParam(":link", $link);
-    $sentencia->bindParam(":imagen", $imagen);
+    
 
+
+    $sentencia->bindParam(":id", $txtID);
     $sentencia->execute();
-    $mensaje = "Registro agregado con éxito.";
+
+
+    if ($_FILES["imagen"]["tmp_name"] != "") {
+
+        $imagen = (isset($_FILES["imagen"]["name"])) ? $_FILES["imagen"]["name"] : "";
+        $fecha_imagen = new DateTime();
+        $nombre_archivo_imagen = ($imagen != "") ? $fecha_imagen->getTimestamp() . "_" . $imagen : "";
+
+        $tmp_imagen = $_FILES["imagen"]["tmp_name"];
+
+        //Borrado del archivo anterior
+        $sentencia = $conexion->prepare("SELECT imagen FROM productos WHERE id=:id ");
+        $sentencia->bindParam(":id", $txtID);
+        $sentencia->execute();
+        $registro_imagen = $sentencia->fetch(PDO::FETCH_LAZY);
+
+        if (isset($registro_imagen["imagen"])) {
+            if (file_exists("../../../assets/images/productos/" . $registro_imagen["imagen"])) {
+                unlink("../../../assets/images/productos/" . $registro_imagen["imagen"]);
+            }
+        }
+        $sentencia = $conexion->prepare("UPDATE productos SET imagen=:imagen WHERE id=:id ");
+        $sentencia->bindParam(":imagen", $nombre_archivo_imagen);
+        $sentencia->bindParam(":id", $txtID);
+        $sentencia->execute();
+    }
+
+    $mensaje = "Registro modificado con éxito.";
     header("Location:index.php?mensaje=" . $mensaje);
 }
 
 include("../../templates/header.php");
+
 ?>
 
 
 <div class="card">
     <div class="card-header">
-        INGRESAR PRODUCTOS
+        Producto del portafolio
     </div>
     <div class="card-body">
         <form action="" enctype="multipart/form-data" method="post">
@@ -107,17 +154,21 @@ include("../../templates/header.php");
             </div>
             <div class="mb-3">
                 <label for="titulo" class="form-label">link:</label>
-                <input type="text" class="form-control" value="<?php echo $link; ?>" name="link" id="link" aria-describedby="helpId" placeholder="link del boton">
+                <input type="text" class="form-control" value="<?php echo $link; ?>" name="link" id="link" aria-describedby="helpId" placeholder="link">
             </div>
-
             <div class="mb-3">
                 <label for="imagen" class="form-label">Imagen:</label>
                 <img width="50" src="../../../assets/images/productos/<?php echo $imagen; ?>" />
                 <input type="file" class="form-control" name="imagen" id="imagen" placeholder="Imagen" aria-describedby="fileHelpId">
 
             </div>
-            <button type="submit" class="btn btn-success">Agregar</button>
+
+            <button type="submit" class="btn btn-success">Actualizar </button>
+
             <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>
+
+
+
         </form>
 
     </div>
@@ -125,6 +176,8 @@ include("../../templates/header.php");
 
     </div>
 </div>
+
+
 
 
 

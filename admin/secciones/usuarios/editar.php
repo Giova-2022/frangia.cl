@@ -6,7 +6,7 @@ if(isset($_GET['txtID'])){
     // Recuperar los datos del ID correspondiente ( seleccionado )
     $txtID=( isset($_GET['txtID']) )?$_GET['txtID']:"";
 
-    $sentencia=$conexion->prepare(" SELECT * FROM  WHERE id=:id ");
+    $sentencia=$conexion->prepare(" SELECT * FROM usuario WHERE id=:id ");
     $sentencia->bindParam(":id",$txtID);
     $sentencia->execute();
     $registro=$sentencia->fetch(PDO::FETCH_LAZY);
@@ -26,7 +26,7 @@ if($_POST){
     $correo=(isset($_POST['correo']))?$_POST['correo']:"";
     $password=(isset($_POST['password']))?$_POST['password']:"";
 
-    $sentencia=$conexion->prepare("UPDATE tbl_usuarios 
+    $sentencia=$conexion->prepare("UPDATE usuario 
     SET 
     usuario=:usuario,
     correo=:correo,

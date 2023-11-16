@@ -31,16 +31,17 @@
 @media screen and (max-width: 760px) {
 
   #btn__agente {
-    width: 160px;  
-    height: 40px;
-    
+    width: 120px;  
+    height: 30px;
+    padding: 3px
+    px;
     position: absolute;
-    top: 95px;
+    top: 120px;
     right: 20px;
     border-radius: 20px;
     background-color: rgb(3, 230, 255);
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     
 
@@ -86,11 +87,13 @@
 @media screen and (max-width: 760px) {
 
   #btn__registro {
+    position: relative;
     width: 120px;
     height: 30px;
     border-radius: 20px;
     color: #fff;
     font-size: 15px;
+    top: 150px;
     margin-top: 30px;
     animation: boton-desplazandose 1s ease-in-out infinite;
   }
